@@ -1,0 +1,318 @@
+Manual Testing :
+
+Software : Set of instructions or programs to accomplish some task.
+
+e.g : caalcualtor , messages , whatsapp etc ..
+
+
+types of softwares :
+
+1. System software : 
+
+e.g : Operating systems , drivers ,etc..
+
+2. Programming software: 
+
+e.g : Compilers , interpreters ,debugging tools etc
+
+3.Application Software :
+
+web applications , Mobile applications , SAP applications , Desktop or standalone applications ,
+mainframe applications , silverlite applications
+
+Testing :
+
+is a process of checking developed  software is working as per client business requirements or not .
+
+
+finding defects or bugs
+
+motto of testing is to deliver a quality product and deliver a risk free product
+
+what do we test in now-a-days applications ( Web or Mobile applications)
+
+- functionalities
+
+- GUI
+
+- Load Testing
+
+- Performance Testing
+
+- Usability
+
+- 
+
+
+how do we test ?
+
+- Manual Testing :
+
+testing activity carried for testing software applications(functional testing or load testing etc) using man effort .
+Then it is called Manual Testing
+
+- Automation Testing :
+
+testing activity carried for testing software applications(functional testing or load testing etc) using
+
+some tools like Selenium  / Cypress  / TOSCA  / UFT etc ..
+
+Process of converting Test Cases to Test Scripts using some tool is called Automation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**************************************************************
+2nd Feb
+
+Terminologies in Software development or Testing :
+
+- Project
+
+if a software application developed for a specific customer .then it is called Project
+
+- Product 
+
+if a software application developed for multiple customers or user then it is called product
+
+- Error :
+
+Any incorrect human action or mistakes which gives wrong results
+
+- Defect / Bug  / Fault :  
+
+Deviation between expected behaviour to actual behaviour of the system is called defect.
+
+Failure : if an end user identifies a defect while using the software application 
+Then it is failure.
+
+Note : 
+
+presence of errors resultsin defects and presence of defects results in failure
+
+
+why do a software application have defects ?
+
+1) Incorrect requirements
+2) Wrong design
+3) wrong coding
+4) poor coding
+5) complex architecture
+6) work pressure and time pressure
+7) frequently change in business requirements
+
+Now-a-days testing :
+
+It's a process of checking are we developing right software or not and also checking developed
+software is working or not
+
+Software Testing = Verification +  Validation
+
+
+Verification : It is process of checking are we developing right s/w or not
+
+It is also called as Static Testing
+
+Validation : It is process of checking developed software is working properly or not
+
+It is also called as Dynamic Testing
+
+*************************************************************
+
+3rd Feb
+
+what are roles or duties of tester ?
+
+1) understanding application under test (AUT) 
+2) Formal Testing (writing and executing test case)
+3) Adhoc Testing (Informal Testing ) / No test cases
+4) finding defects and reporting to developers
+5) ReTesting and Regression testing
+6) developing automation test scripts
+7) executing automation test scripts
+8) Analyse test results 
+9) Prepare test reports
+
+------------------------------------------------
+Principle of software testing ?
+
+7
+
+1) Testing shows presence of defects 
+2) Exhaustive testing is not possible
+3) Early Testing
+4) Pesticide Paradox
+5) Defect Clustering
+6) Testing is context(application) dependent / situtaion dependent
+7) absence of defects is fallacy
+
+***********************************************************************
+
+4th Feb Saturday
+
+SDLC :
+
+software development life cycle
+
+
+SDLC Models :
+
+							SDLC Models
+				
+				Sequential 						Incremental
+				
+				1. Waterfall model				1. RAD (Rapid Application development)
+				2. V-Model 						2. Prototype Model				
+												3. Spiral Model			
+												4. Agile Model
+1. Waterfall Model
+
+is well suited for small projects where requirements are clear
+
+only validation
+				
+
+2. V Model
+			
+is well suited for small projects where requirements are not clear
+so Early testing should be done
+
+Verification + Validation
+
+1. RAD (Rapid Application Development Model)
+2. Prototype Model
+
+This model is good for below scenario
+
+  i) if customer is providing reference application
+  ii) If customer requirements are not clear
+
+
+
+
+**************************************************************
+6th Feb Monday
+
+Software Testing :
+
+Static Testing :
+
+It's a process of checking , are we developing right software or not
+
+It's carried out in organization through reviews, inspection and Walk through's
+
+
+Review : 
+
+Examing a project related task is a Review
+
+Requirments Review :
+
+These reviews carried out by domain experts to find mistakes at requirements
+
+
+Design Reviews :
+
+These reviews carried out by Techincal / system experts to find out mistakesin design
+
+Code Reviews :
+
+These reviews carried out by Senoir developers to find devitaions in coding standards
+
+NoOfLinks =10
+
+Test Case Reviews :
+
+These reviews carried out by Senoir Testers preferably test lead to check the test cases are
+enough to test the project or not
+
+
+Formal Reviews :
+
+if any review is carried out by following proper review procedures or documentation
+
+
+Inspection and Audit are best examples for Formal Reviews
+
+Inspection : if a formal review carried out while executing a task
+
+Audit : if a formal review carried out after execution of task
+
+Informal Review :
+
+if any review is carried out by without proper review procedures or documentation
+
+Peer Reviews
+
+Walk Through's :
+
+Knowledge Transfer Sessions are called Walk Through's 
+
+
+------------------------------------------------------------
+
+Dynamic Testing :
+
+Whitebox Testing :
+
+Testing conducted on the source code by developers to make sure developed code is 
+working as expected or not 
+
+unit testing and integration testing is collectively called as Whitebox testing
+
+
+Unit Testing :
+
+A smallest part in the source code of application such as programs , functions , methods  are
+called units.
+
+Testing conducted on these units is called Unit Testing
+
+Integration Testing : 
+
+once all units are tested , programs are combined together .
+Testing conducted on overall output is called Integration Testing
+
+
+
+Blackbox testing :
+
+Testing conducted on the developed application by testers and also end users is called
+blackbox testing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
