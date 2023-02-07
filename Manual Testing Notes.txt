@@ -292,6 +292,104 @@ blackbox testing.
 
 
 
+**************************************************************
+7th Feb Tuesday
+
+
+Functional System Testing Types :
+
+
+1)Smoke Testing :
+
+It is a kind of quick test or rough test performed on given application or build to decide 
+whether it is eligible for further detailed testing or not
+
+what to be verified in smoke testing ?
+
+- we have to check all major functions are available ?
+
+- we have to check the given application is consistently operable or not 
+
+Objective of smoke testing iss to make sure whether given application is testable or not
+- Not to find defects 
+
+2) Formal Testing :
+
+If we test a s/w application by following proper procedures and proper documentation.
+
+In Simple words, writing test cases and excuting test cases.
+
+recommended for maintenance projects
+
+3) Adhoc Testing :
+
+If we test a s/w application without following proper procedures and proper documentation.
+
+- adhoc is perfomed for small projects or quick projects
+- It is recommended for maintenance projects after Formal Testing
+
+
+4)Priority Based Testing :
+
+It is a process of deciding what to be tested first , what to test next and what to test last.
+
+
+In other words , identifying important features in the product and testing them in order.
+
+
+5)ReTesting
+
+It is a process of validating reported defects/bugs are correctly resolved or not in 
+modified build
+
+
+6) Regression Testing :
+
+It is a process of validating various functionalities in the modified build, where there is
+a chance of getting side effects .
+
+what is the diff b/n retesting and regression testing ?
+
+Retesting performed modified build to make sure reported defects are correctly resolved
+
+where as 
+
+regression testing is perfomed on modified build for other features 
+
+
+7)End to End Testing :
+
+It is a process of checking over all functionalities of system from begining to end .
+
+This will be carried out by senior testers preferably Test lead to make a decission whether
+to stop testing or not
+
+Special Functional System Testing :
+
+1. BenchMark Testing 
+
+It is a process of comparing our product with an established product in market.
+
+It is required for products for which already competetors present in market
+
+
+2. Exploratory Testing :
+
+Exploring the application , understanding the application then testing it.
+
+in two scenarios , we go for Exploratory 
+
+- if requirement documentation is not available
+- if requirements documentation is not providing sufficient  inputs
+
+
+3) Monkey Testing :
+
+Wantedly performing uneven operarations or zig-zag operarations with an intension of 
+making system failure is called monkey testing
+
+
+
 
 
 
