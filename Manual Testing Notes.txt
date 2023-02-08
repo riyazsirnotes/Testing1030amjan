@@ -389,6 +389,125 @@ Wantedly performing uneven operarations or zig-zag operarations with an intensio
 making system failure is called monkey testing
 
 
+**************************************************************
+8th Feb Wednesday
+
+Sanity Testing :
+
+Sanity test is done during the release phase to check for the main functionalities of application
+without going deeper
+
+Sanity testing is performed on stable builds 
+
+It's a part of regression testing
+
+It is planned when is there no enough time to do in-depth testing 
+
+-------------------------------------------------------------
+
+Non-Functional Testing :
+
+Reponsiveness
+
+Stability
+
+Security
+
+----------------------
+
+time
+
+speed 
+
+user data volume 
+----------------------------
+
+
+Performance Testing :
+
+	Load testing
+	Stress testing
+	Volume testing
+	
+
+mostly perforamce testing is done using tools 
+
+jmeter ,  Load Runner , Neo Load etc ..
+
+
+Performance Testing :
+
+testing the reponse time of application under different conditions 
+
+Load Testing :
+
+testing the stability of the system under different loads (here different no of users)
+
+we increase the load gradually and test the s/m
+
+Stress Testing :
+
+We suddenly increase the load and checking the stability
+
+Volume Testing :
+
+Here we test the user data volume capacity that s/m can hold
+
+
+Security Testing :
+
+Testing the security aspects 
+
+---------------------------------------------------------
+Globalization or Internationalization or I18N testing :
+
+It is a process of checking end user having choice to configure different language options
+(currency ,date and time foramt )
+
+----------------------------------------------------------
+
+Localization Testing :
+
+IT's a process of checking default format,currency and language for the products designed for 
+a specific locality of users
+
+--------------------------------------------------------------
+
+Recovery Testing:
+
+IT's a process of checking how does our application handling unexpected or un predectible 
+situtaion's like power failure , system crash , internet issues etc..
+
+
+----------------------------------------------------------------
+
+Installation Testing :
+
+IT's a process of checking are we able to install the software successfully or not as per the
+guidelines given in installation document.
+
+-----------------------------------------------------------------
+
+UnInstallation Testing :
+
+IT's a process of checking are we able to uninstall the s/w successfully or not 
+also the data clean up.
+
+===========================================================================
+
+User Acceptance testing :
+
+Testing carried out by the end user on the delivered product to make sure whether it is ready for production or not.
+
+UAT testing carried out in two ways :
+
+1. Alpha Testing
+
+It is first level of Acceptance testing carried out at company premises 
+
+2. Beta Testing
+
+It is last level of Acceptance testing carried out at customer premises
 
 
 
