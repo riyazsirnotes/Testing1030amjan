@@ -511,6 +511,66 @@ It is last level of Acceptance testing carried out at customer premises
 
 
 
+**************************************************************
+9th Feb Thursday
+
+STLC (Software Testing Life Cycle)
+
+
+Test Planning :
+
+It is the first phase of s/w testing where management defines Test Strategy and Test Plan to 
+execute the work smoothly
+
+Test Strategy :
+
+It is a high level plan and approach defined by management that explains how current project
+will be tested .
+
+In general , test strategy is defined Project Manager or Test Manager.
+
+Test Plan :
+
+It is a detailed work plan that explains 
+-> Scope of testing
+-> test approach
+-> Resources
+-> Work Schedules
+
+Test Plan Template :
+
+An IEEE 819 test plan document will have following sections
+
+1) Project Overiew
+
+2) Documents References 
+
+3) Scope of testing :
+
+ 3.1 In Scope (features to be tested)
+ 3.2 Out Scope (features not to be tested or NFT )
+
+4) Test Strategy
+
+5) Test Environment 
+
+6) Test Deliverables
+
+7) Staffing plan
+
+8) Risk Planning 
+
+9) Work Schedules
+
+10) Approvals / sign offs
+
+
+
+
+
+
+
+
 
 
 
