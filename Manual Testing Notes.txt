@@ -567,7 +567,49 @@ An IEEE 819 test plan document will have following sections
 
 
 
+**************************************************************
+10th Feb Friday
 
+
+Test Planning Phase :
+
+PM/Tm/TL will be involved in this phase .
+
+Test Strategy and Test plan
+
+Analysis : 
+
+
+<td width="150" align="right">Username&nbsp;</td>
+
+If any questions occured during analysis  , we document these questions in 
+Requirement Clarifictaion Notes.
+
+These questions will be clarified by Test Lead  . 
+
+By end of the test analysis phase we should get knowledge on the Project.
+
+
+FRS Template :
+
+1. Overview : This section explains functionalities under development and testing.
+
+2. Prototype : it is an optional section and this section provide snapshots of the functionalities
+
+3. Page Elements : This Section will list out various controls / elements present in the page
+
+4. Input Validation's or Business Rules : 
+	This section explains various business rules enforced by client.
+
+5. Use Case Diagram : 
+   Its a graphical representation of Actor , Actions and System reponses
+
+6.Use Cases : A use case will explain pre conditions , Actor , actions , post conditions
+
+and possible expectations
+
+User ID :	mngr266311
+Password :	Admin123$
 
 
 
