@@ -612,6 +612,49 @@ User ID :	mngr266311
 Password :	Admin123$
 
 
+**************************************************************
+13th Feb Monday
+
+Test Design Phase :
+
+
+Test Scenario :
+
+A feature to be tested or a functionality to be tested in application under Test 
+is a called TEst Scenario
+
+
+Few Scenario's for Calculator Application :
+
+1. Check Addition
+2. Check Subraction
+3. Check Multiplictaion 
+4. Check Division
+
+Few Scenario's for Mobile Instrument :
+
+1.check switch on/off
+2. check battery charging
+3. check making a called
+4. check recieving 
+5. check sending a sms
+6. check recieving a sms
+
+
+????????????????????????????????
+Assignment 
+
+1.Write TEst Scenarios for Adactin Hotel Application
+Module : Authentictaion
+        Login / Forgot Password /Change Password
+		
+Module : Create Account
+		Registration
+		
+		
+2.Write TEst Cases for Adactin Hotel Application
+
+for all above Scenarios
 
 
 
