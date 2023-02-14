@@ -657,6 +657,31 @@ Module : Create Account
 for all above Scenarios
 
 
+**************************************************************
+14th Feb Tuesday
+
+Assignment 
+
+1.Write TEst Scenarios for Naukri registration
+
+2.Write Test Cases for above scenarios
+
+
+Test Case :
+
+how to test ?
+
+A set of pre-conditions , test procedures , input data(test data) and expected behaviour
+of the system planned  by tester to validate a functionality in the project is called test case.
+
+
+------------------------------------------------------------------
+***
+Test Case Design Techniques :
+
+1)Equivalance Class Partitioning (ECP)
+
+
 
 
 
