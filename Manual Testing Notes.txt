@@ -704,14 +704,45 @@ while classifing or sub-grouping , make sure each group should producing same lo
 Then pick atleast one i/p from group preferably the middle one
 
 
+**************************************************************
+16th Feb Thursday
+
+
 2)Boundary Value Analysis (BVA)
 
+This is technique used to reduce count of test cases 
+
+It has practically proven that most of the developers are making mistakes while specifying boundary
+conditions such as > , < , >= , <= 
+
+To identify the defects BVA technique is introduced.
+
+According to BVA , we have to identify partions where the ranges , the we have to consider the boundary values
 
 
 
+3)Decission Table Testing
 
 
 
+It the output of  a functionality depends on multiple inputs definitely developer might have used
+logical operators ( AND OR etc) 
+There is chance in place of AND operator he might use OR which gives defects
+To find out those kind of defects Decission Table Testing is right choice
+
+4)State Transition Testing
+
+<a href="Register.php">New User Register Here</a>
+
+
+?????????????????????????????
+Assignment
+??????????????????????????????
+Write Test Scenarios and TEst cases for below requirements
+R1.1 Payment Functionality for a Product in amazon
+
+
+R1.2 Deleting an email functionality in gmail
 
 
 
