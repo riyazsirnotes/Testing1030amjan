@@ -676,19 +676,35 @@ of the system planned  by tester to validate a functionality in the project is c
 
 
 ------------------------------------------------------------------
-***
+
+**************************************************************
+14th Feb Tuesday
+
 Test Case Design Techniques :
 
+To avoid exhaustive testing and to ensure 100 % requirement coverage and to find defects and also
+ reduce test cases count we follow techniques for S/w testing
+
 1)Equivalance Class Partitioning (ECP)
+2)Boundary Value Analysis (BVA)
+3)Decission Table Testing
+4)State Transition Testing
+5)Use Case Based Testing
+6)Error guessing 
+
+1)Equivalance Class Partitioning (ECP) 
 
 
+According to ECP we identify all possible i/p conditions to validate functionality
+
+Then we divide them into groups (valid partitioning and Invalid Partitioning)
+and under that we classify(sub-groups) the i/p's 
+
+while classifing or sub-grouping , make sure each group should producing same logical output
+Then pick atleast one i/p from group preferably the middle one
 
 
-
-
-
-
-
+2)Boundary Value Analysis (BVA)
 
 
 
