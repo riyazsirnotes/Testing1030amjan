@@ -745,6 +745,18 @@ R1.1 Payment Functionality for a Product in amazon
 R1.2 Deleting an email functionality in gmail
 
 
+**************************************************************
+17th Feb Thursday
+
+4)State Transition Testing
+
+When we there a funtionality which moves from one page to other based on differnt inputs we go with 
+
+State Transition Testing technique.
+
+
+6)Error guessing Testing :
+
 
 
 
