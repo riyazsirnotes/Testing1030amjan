@@ -757,8 +757,72 @@ State Transition Testing technique.
 
 6)Error guessing Testing :
 
+It's always used when tester comes from similar kind of product or experince in past 
+Where he will write test cases based on Error guessing.
+
+for e.g :
+
+In his previous experince , he misght have validated email field to give errors
+when it is invalid
 
 
+
+
+**************************************************************
+20th Feb Monday
+
+
+7) Use Case Based Testing :
+
+Actor -- user or group of users
+
+Action -- activity or the task that actor performs
+
+Outcome -- reponse or system behaviour
+
+A use case is brief description of user action and system reponses.
+
+
+------------------------------------
+Requirement Tracability Matrix (RTM)
+
+Mapping requirements to corresponding use case  , test scenarios and test cases
+is called RTM
+
+Adavantages of RTM 
+
+1)As every requirement mapped to corresponding use cases ,scenarios and test cases .
+
+Change requests can be handled or processed easily and effectively
+
+2) asw we can trace a group of test cases belongs to specific requirement , test execution process 
+will go smoothly
+
+3) we trace percentage of test coverage . ie. how many requirements test cases are prepared and how 
+many are pending
+. we can track those.
+
+
+-----------------------------------------------
+Test Execution Phase :
+
+IN this phase we execute planned test cases on the given build .
+
+Following are the major work itesms in this phase 
+
+1) Build Deployment
+
+2) Build Acceptance Testing (Smoke Testing)
+
+3) Execute TEst Cases
+
+4) Document and reports defects
+
+5) conducting retesting on the modified build
+
+6) conducting regression testing on the modified build
+
+7) conducting End to End testing on final build
 
 
 
