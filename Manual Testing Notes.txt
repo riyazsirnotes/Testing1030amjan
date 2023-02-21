@@ -826,3 +826,52 @@ Following are the major work itesms in this phase
 
 
 
+**************************************************************
+21st Feb Tuesday
+
+
+https://login.oracle.com/mysso/signon.jsp
+
+Test Execution Phase (Cont ...)
+
+
+1) Build Deployment
+
+Once code is developed and tested by Developer (WBT or unit Testing)
+
+This code is released as build in QA / SIT (System Integration Test) environment
+
+for every build developer will share below 2 documents
+
+i) SRN (Software Release Notes )
+
+a) Dev Team Information
+b) Testing team Information
+c) Build path (can be URL or app center link with buidl number dor .apk and .ipa files)
+d) Known issues
+e) Regression testing scenarios if applicable
+f) Approvals
+
+ii) Deployment Document (DD)
+
+This document will explain hardware requirements, software requirements and build installation
+procedure.
+
+2) Build Acceptance Testing (Smoke Testing)
+
+After deploying the build we will perform smoke testing to make sure given application is
+testable or not
+if not testable , we will reject the build
+
+
+3) Execute TEst Cases
+
+If smoke testing passes , we will start executing test cases based on priority.
+Very High , High , Medium and low 
+
+while executin the test steps we should update actual results then compare with expected results
+if both are matched , we update step result as Passed 
+
+one test case contains many steps . if all steps are passed , then we update in Test Case Summary 
+the test case is passed .
+
