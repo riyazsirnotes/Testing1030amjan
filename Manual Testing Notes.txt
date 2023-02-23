@@ -875,3 +875,53 @@ if both are matched , we update step result as Passed
 one test case contains many steps . if all steps are passed , then we update in Test Case Summary 
 the test case is passed .
 
+
+**************************************************************
+23rd Feb Thursday
+
+Defect / Bug / Issue :
+
+1. Reproducible Defect :
+
+If a defect occuring everytime then it is called Reproducible Defect.
+
+2. Defect Severity : 
+
+The impact of the defect or how seriout the defect is 
+
+Different Defect Severity :
+
+1.Very High
+2.High
+3.Medium
+4.Low
+
+Note : Defect Severity is decided by testers because testers knows the business requirements well
+and also domain knowledge
+
+3.Defect Priortity :
+
+The order in which defects to be resolved 
+
+
+Different Defect Priorties :
+
+1.Very High / P0
+2.High /P1
+3.Medium/ P2
+4.Low / P3
+
+
+
+Note : Defect Priority is decided by Developers  as he knows better which one takes more time less
+
+Examples :
+
+Low Severity and High Priority 
+
+Incorrect Logo or Company Title
+
+High  Severity and Low Priority
+
+A major issue belongs to Future Release or Sprint 
+
