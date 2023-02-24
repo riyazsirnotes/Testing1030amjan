@@ -925,3 +925,68 @@ High  Severity and Low Priority
 
 A major issue belongs to Future Release or Sprint 
 
+
+**************************************************************
+24th Feb Friday
+
+Agile Model / Agile Process / Agile Methodology
+
+It is an Iterative and Incremental Model or approach
+
+Agile Principles/advantages  :
+
+1)customer no need to wait for a long time
+2)We develop , test and release piece of software to the customer with few features.
+3) we can accept /accomodate requirement changes 
+
+There will be good communication between customer , Business Analysts , Developers and Testers.
+
+Scrum
+----------------------------------
+Scrum is a framework through which we build software product by following Agile Principles.
+
+Scrum includes a group of people called Scrum Team or Squad .
+Normally scrum team consists of 5-9 member in worst case upto 12.
+
+1)Product Owner / Project Manager
+2)Scrum Master
+3)BA's 
+4)Dev Team
+5)QA Team
+
+Product Owner :
+
+- Define the features of the product
+- Prioritize  features according to market value or client needs
+- Adjust features and priority for every iteration , 
+- accept and reject the work results 
+
+Scrum  Master :
+
+The main role is faciliating and driving the agile process.
+
+Scrum Terminologies :
+
+
+User Story : A feature / module / behaviour in a software .
+
+Epic : Collection of user stories .
+
+Product Backlog :
+
+contains list of user stories . prepared by Product Owner.
+
+Sprint/Iteration : Period of time to complete the user stories .
+decided by product owner .
+
+usally 2 weeks , very rarely 3-4 weeks.
+
+Sprint Planning Meeting : 
+Meeting conducted with team to define what can be delivered within the sprint
+and also assign story points.
+
+
+
+0 1 1 2 3 5 8 13 
+
+
