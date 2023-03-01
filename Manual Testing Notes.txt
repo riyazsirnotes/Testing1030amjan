@@ -977,6 +977,7 @@ Product Backlog :
 contains list of user stories . prepared by Product Owner.
 
 Sprint/Iteration : Period of time to complete the user stories .
+
 decided by product owner .
 
 usally 2 weeks , very rarely 3-4 weeks.
@@ -990,3 +991,109 @@ and also assign story points.
 0 1 1 2 3 5 8 13 
 
 
+
+**************************************************************
+27th Feb Monday
+
+
+Agile Scrum
+
+
+JIRA Tool
+
+
+**************************************************************
+28th Feb Tuesday
+
+JIRA Tool
+
+
+**************************************************************
+1st Mar Wednesday 
+
+Database Testing :
+
+Doing some activity in front end and validating it from backend 
+is called Database Testing 
+
+Introduction to SQL  :
+
+SQL stands for Strutured Query Language which is used as common language to communicate 
+with RDBMS like ORACALE , SQL SERVER , IBM DB2 etc..
+
+
+										SQL
+								
+			DDL							DML						DCL
+		Data Definition Language	Data Manipulation 			Data Control
+		
+		- Create					- Insert					- Begin Transaction
+				
+		- Alter 					- Update					- commit Transaction
+				
+		- Drop	                    - Delete/Truncate			- Rollback Transaction
+						
+									- Select
+										- joins
+										- subquery
+
+
+Database :
+		
+
+CREATE DATABASE databasename;
+
+create database riyazdb;
+
+Query OK, 1 row affected (0.00 sec)
+
+
+Table :
+
+
+CREATE TABLE table_name (
+    column1 datatype[size] constraints,
+    column2 datatype[size] constraints,
+    column3 datatype[size] constraints,
+   ....
+);
+
+Constraints :
+
+constraints are used to enforce buisness rules
+
+1. NULL 
+
+By default every column in table allow NULL values 
+
+2. NOT NULL : 
+
+if you don't wwant to allow NULL's for a column then use NOT NULL constraints
+
+3. UNIQUE 
+
+
+If you don't want to allow duplicates in a column 
+
+4. Primary Key :
+
+A column through which data can be uniquely recognised will be defined as unique key.
+Note : one 
+
+Table can have one primary key
+
+5.Reference Key or Foriegn Key :
+
+In RDBMS we relate tables using Foriegn Key
+
+???????????????????????????????????????
+
+Assignmnet
+
+create a dept table 
+(deptNo deptName 
+
+Create a Emp TABLE
+
+
+(empId int , empName , designation , salary ,  depNo)
