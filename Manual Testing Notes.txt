@@ -1097,3 +1097,83 @@ Create a Emp TABLE
 
 
 (empId int , empName , designation , salary ,  depNo)
+
+
+
+**************************************************************
+2nd Mar Wednesday 
+
+CREATE TABLE dept (
+    dept_id int NOT NULL,
+    dept_name varchar(40),
+    location varchar(40));
+	
+---------------------------------------------------
+For inserting data into table 
+
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+INSERT INTO dept (dept_id, dept_name, location)
+VALUES (2, 'Services', 'Chennai');
+
+VALUES (1, 'Sales', 'Hyderabad');
+
+;
+
+------------------------------------------
+
+CREATE TABLE emp (
+    emp_id int NOT NULL,
+    emp_name varchar(40),
+    dep_id varchar(40),
+	emp_address varchar(40),
+	salary int);
+	
+	
+INSERT INTO emp values(100,'Ram',1,'Ameerpet',45000);	
+	
+	
+	
+-------------------------------------------------------------
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+UPDATE emp 
+SET emp_address = "KPHB"
+WHERE emp_id=100;
+
+************************
+Retrieving data from databases 
+
+using SELECT command
+
+
+SELECT [ALL/DISTINCT] [Top N] * or Column List 
+FROM table_name
+[WHERE Condition]
+[GROUP By COLUMN[s]]
+[HAVING Condition]
+[Order By Column[s] ASC/DESC]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
