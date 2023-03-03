@@ -1161,6 +1161,121 @@ FROM table_name
 
 
 
+**************************************************************
+3nd Mar Friday
+
+
+ https://justinsomnia.org/2009/04/the-emp-and-dept-tables-for-mysql/
+ 
+ 
+ Retrieving data from databases 
+
+using SELECT command
+
+
+SELECT [ALL/DISTINCT] [Top N] * or Column List 
+FROM table_name
+[WHERE Condition]
+[GROUP By COLUMN[s]]
+[HAVING Condition]
+[Order By Column[s] ASC/DESC]
+ 
+ 
+ 
+ ALL : All is the default with select command which retrieves all records from specified table
+ 
+ Select ALL * from emp;
+ 
+ 
+ DISTINCT : It retrieves unique records from the table.
+ 
+ Top N /LIMIT : it retrives specific number of begining records from table
+ 
+ * : means retrives all the columns
+ 
+ Column List : 
+ 
+ select empno,ename,sal from emp limit 2;
+ 
+ 
+ WHERE Condition :
+ 
+ if where condition not specified select command will retrieves all records
+ if where is specified then it will retrieves the records of condition met
+ 
+ select * from emp where deptno=10;
+ 
+ select * from emp where deptno=10 and sal>=3000;
+ 
+ select * from emp where deptno=10 and sal>=3000;select * from emp where deptno=10 and sal>=3000;
+ 
+ select * from emp where deptno in(10,20);
+ 
+ select * from emp where sal>=2000 and sal<=5000;
+ 
+ select * from emp where sal between 2000 and 5000;
+ 
+ 
+ Count :
+ vg
+ select count(*) from emp where sal between 2000 and 5000;
+ 
+ 
+ SUM :
+ 
+ 
+ select sum(sal) from emp;
+ 
+ Avg :
+ 
+ select avg(sal) from emp;
+ 
+ 
+ 
+ Min :
+ 
+ select min(sal) from emp;
+ 
+ Max :
+ 
+ 
+ Group By :
+ 
+ It divides the main table into logical subtables then specified aggregate functions will be executed.
+ 
+ select deptno,sum(sal) from emp group by deptno;
+ 
+ 
+ HAVING Condition:
+ 
+ it is used for filtering 
+ 
+ select  * from emp having comm is not null;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
 
 
 
