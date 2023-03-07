@@ -67,6 +67,166 @@ jdk-11.0.18_windows-x64_bin.exe
 
 
 
+*********************************************************
+
+Mar 7th Tuesday 
+
+
+Configuration of Java :
+
+
+JAVA_HOME
+
+C:\Program Files\Java\jdk-11
+
+path 
+
+C:\Program Files\Java\jdk-11\bin
+
+
+To check java is configure or not :
+
+
+open cmd 
+
+give > java -version
+
+java version "11.0.18" 2023-01-17 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.18+9-LTS-195)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.18+9-LTS-195, mixed mode)
+
+
+							jdk folders
+							
+							
+			lib						bin					jre
+			
+			
+lib : Library 
+
+predefined stuff (classes and interfaces) to develop java applications
+
+
+
+					lib
+					 |
+			collection of jars ( similar to zip folders)
+					 |
+			collection of packages ( similar to folder)
+					 |
+			----------------------------
+			|							|
+		Classes 				    Interfaces
+			|							 |
+	------------------			-----------------------	
+	|				  |         |					   |
+variables			methods  Constants/Fields      abstarct methods
+
+
+
+
+---------------------------------
+bin : binaries ( executables)
+
+
+tools to develop and maintain java  programs or applications
+
+
+
+javac : to compile a java programs
+
+java : to run the java program 
+
+------------------------------------------------
+
+
+
+jre ( Java Runtime Environment)
+
+
+							JVM ( Java Virtual Machines)
+							
+	It's an abstarct machine (having tasks with no body)
+
+								|
+			-------------------------------------------------
+			|					  |							  |
+		CLSS				    EE (Executin Engine)	    GC(Garbage collector)
+
+
+CLSS : Class Loader Susbsystem 
+
+1.Loading
+2.linking
+3.initialization 
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
