@@ -161,6 +161,95 @@ CLSS : Class Loader Susbsystem
 3.initialization 
 
 
+
+*********************************************************
+
+Mar 8th Wednesday
+
+						EE (Execution Engine)
+						
+			Interpreter						JIT compiler
+			
+											Just In Time 
+											
+											
+Garbage Collector :
+
+Mark :  to identify garbage 
+
+Sweep : to deallocate the memory
+
+-------------------------------------------------------------------------------------
+Structure of Java Program :
+
+
+1. Documentation Section
+2. Package Section 
+3. Import Section 
+4. Class or Interface Section
+
+1. Documentation Section :
+
+Two types of comments:
+
+i) single line comments
+
+starts  // 
+
+ii) Multi line comments
+
+/* ljlkkjk
+   lkjhlkjlkj
+*/
+
+
+2. Package Section 
+
+
+Package means folder 
+
+why package ?
+
+for logical grouping
+
+syntax :
+
+package name;
+
+e.g 
+
+package base;
+
+package test;
+
+package testscripts.regression;
+
+
+3. Import Section 
+
+
+import packagename.*;
+
+import packagename.ClassName;
+
+import static packagename.*;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
 		
 
 
