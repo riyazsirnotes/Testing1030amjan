@@ -236,21 +236,138 @@ import static packagename.*;
 
 
 
+*********************************************************
+
+Mar 9th Thursday
+
+4. Class or Interface Section :
+
+
+
+syntax :
+
+
+access-specifier access-modifier class ClassName
+{
+
+//variables
+
+//methods
+
+
+}
+
+
+e.g 
+
+public class Hello
+{
+
+public static void main(String[] args)
+{
+
+
+}
+
+
+}
+
+===================================================================
+Naming Convention in Java 
+===================================================================
+
+
+
+collection of packages ( similar to folder)
+					 |
+			----------------------------
+			|							|
+		Classes 				    Interfaces
+			|							 |
+	------------------			-----------------------	
+	|				  |         |					   |
+variables			methods  Constants/Fields      abstarct methods
 
 
 
 
 
+packages :  all lower case
+
+e.g java.util
+
+org.openqa.selenium
+
+regression
 
 
+------------------------------------------
 
-
-
-
-
+ Classes :  Title Case
+ 
+ e.g   String
+ 
+ Scanner
+ 
+ ChromeDriver
+ 
+ ValidateLogin
+ ---------------------------------------------
+ Interfaces : Title Case
+ 
+ e.g 
+ 
+ List
+ 
+ WebDriver
+ 
+ MyInter
+ 
+ -----------------------------------------------
+ 
+ variables : Camel Case [ CC = LC(lower case) + TC (Title case) ]
  
  
-		
+ x
+ 
+ netSalary
+ 
+ costOfItem
+ 
+ ---------------------------------------------------
+ 
+methods : Camel Case [ CC = LC(lower case) + TC (Title case) ]
+ 
+methods will have ( braces 
+
+main(
+
+println(
+
+nextInt(
+
+getWindowHandle(
+
+-----------------------------------------------
+
+Constants/Fields  :  All Upper Case
+
+
+
+
+PI = 3.14
+
+MAX_LIMIT = 10000
+
+
+------------------------------------------------
+
+ abstarct methods : Camel Case [ CC = LC(lower case) + TC (Title case) ]
+ 
+ here methods will not have body ends with ;
+ 
+ 
+ 
 
 
 
