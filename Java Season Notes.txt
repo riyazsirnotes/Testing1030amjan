@@ -367,7 +367,156 @@ MAX_LIMIT = 10000
  here methods will not have body ends with ;
  
  
- 
+*********************************************************
+
+Mar 10th Friday
+
+*********************************************************
+
+===================================================================
+Memory Blocks in Java 
+===================================================================
+
+1) Class Area / Method Area
+
+.class files 
+
+static variables
+
+static methods
+
+static blocks
+
+
+
+
+2) Heap Area
+
+dynamic memory area
+
+- objects 
+
+- arrays 
+
+
+
+
+3) Java Stack Area (JSA)
+
+
+- local varibales 
+
+- expressions 
+
+- current running logic 
+
+
+
+4) String constant pool Area (SCPA)
+
+
+String literals will be stored 
+
+
+String s1="Live Tech";
+
+---------------------------------------------
+Datatypes in Java 
+----------------------------------------------
+					Datatypes in Java 
+
+		Primitive Datatypes					non-primitive Datatypes
+		
+
+
+--------------------------------------------------
+
+Variables in Java 
+
+---------------------------------------------------
+
+
+syntax :
+
+
+
+access-specifier access-modifier data-type variableName = some value;
+
+e.g
+
+public int netSalary = 100000;
+
+left hand side is called varibale declaration
+
+if some value is assigned in right hand side then it is called initialization.
+
+here you can this way also
+
+
+access-specifier access-modifier data-type variableName;
+
+variableName = some value;
+
+public int netSalary;
+
+netSalary=10000;
+
+								Variables
+								
+		
+		Local					instance					static
+		
+		
+Local Variables :
+
+Local Variables are the variables declared inside a method.
+
+
+- where memory is allocated ?
+
+Java Stack Area
+
+- when memory is allocated ?
+
+during runtime
+
+- what is calling style ?
+
+just  variableName
+
+- lifetime or scope of local varibale
+
+till end of method
+
+Note :
+
+
+VariablesDemo2.java:11: error: variable x might not have been initialized
+System.out.println("value of x is "+x);
+                                    ^
+1 error
+
+
+
+It's the responsibity or duty of programmer or developer to intialize the local varibales
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
