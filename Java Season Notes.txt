@@ -496,19 +496,98 @@ System.out.println("value of x is "+x);
                                     ^
 1 error
 
-
-
 It's the responsibity or duty of programmer or developer to intialize the local varibales
 
 
 
+*********************************************************
+
+Mar 11th Saturday
+
+*********************************************************
+
+
+IDE ( Integrated Development Environments)
+
+Eclipse 
+
+IntelliJ Idea
+
+Net beans 
+
+https://www.eclipse.org/downloads/
+
+2021-09
+
+
+Click on "Download Package"
+
+Then
+
+Click on "Eclipse 2021-09 (4.21)" under "More Download"
+
+under 
+
+Eclipse IDE for Enterprise Java and Web Developers
+
+Click on "Windows x86_64"
+
+a zip file will get downloaded 
+
+just unzip the file , you will find a folder "eclipse"
+
+
+just open the eclipse folder 
+
+you will find eclipse appliction , just open that application or .exe
 
 
 
 
+--------------------------------------------------
+
+Variables in Java  (Cont ..)
+
+---------------------------------------------------
+
+
+2. Instance Variables
+
+def :  varibales which are declared inside a class but outside of method
+
+Multiple markers at this line
+	- Cannot make a static reference to the non-static field y
+	- TODO Auto-generated method stub
+
+- when memory is allocated ?
+
+when you create an instance or objects
+
+syntax for creating an object ?
+
+ClassName objectName=new ClassName();
+
+- where memory is allocated ?
+
+in Heap Area
+
+- what is calling style ?
+
+objectName.variableName ;
+
+- lifetime or scope of local varibale
+
+till last of usage of object 
 
 
 
+-------------------------------------------------------
+
+3. Static Variables
+
+if we have something "common" and "shared accross"  , we use static 
+
+def : 
 
 
 
