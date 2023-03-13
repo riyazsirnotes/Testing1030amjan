@@ -478,7 +478,7 @@ Java Stack Area
 
 - when memory is allocated ?
 
-during runtime
+during runtime and method is called
 
 - what is calling style ?
 
@@ -583,11 +583,72 @@ till last of usage of object
 
 -------------------------------------------------------
 
+
+*********************************************************
+
+Mar 13th Saturday
+
+*********************************************************
+
+
 3. Static Variables
 
 if we have something "common" and "shared accross"  , we use static 
 
-def : 
+def : varibales which are declared inside a class but outside of method having keyword static
+
+- when memory is allocated ?
+
+while compilation
+
+- where memory is allocated ?
+
+Class Area / Method Area
+
+- what is calling style ?
+
+ClassName.variableName
+
+- lifetime or scope of local varibale
+
+through out the program 
+
+
+--------------------------------------------------
+Methods in Java  
+---------------------------------------------------
+
+						Methods in Java  
+						
+			
+			non-static methods				Static Methods
+			
+Method :
+
+set of instructions to accomplish some task 
+
+uses/advanatges  of methods :
+
+- reduces redundancy of code
+- improves code clarity
+- resuabilty
+- debugging of code will be easy
+
+
+Syntax of method :
+
+access-specifier access-modifier return-type methodName(arguments or paramters)
+{
+
+// statements
+
+return statement;
+
+}
+
+
+		
+
 
 
 
