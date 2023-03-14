@@ -586,7 +586,7 @@ till last of usage of object
 
 *********************************************************
 
-Mar 13th Saturday
+Mar 13th Monday
 
 *********************************************************
 
@@ -645,6 +645,46 @@ access-specifier access-modifier return-type methodName(arguments or paramters)
 return statement;
 
 }
+
+
+*********************************************************
+
+Mar 14th Tuesday
+
+*********************************************************
+
+
+--------------------------------------------------
+Methods in Java   (Cont ..)
+---------------------------------------------------
+
+
+Scanner Class :
+
+java.util
+
+
+next() : String 
+nextInt() : int 
+==========================
+next(String)
+next(Pattern)
+nextBigDecimal()
+nextBigInteger()
+nextBigInteger(int)
+nextBoolean()
+nextByte()
+nextByte(int)
+nextDouble()
+nextFloat()
+nextInt(int)
+nextLine()
+nextLong()
+nextLong(int)
+nextShort()
+nextShort(int)
+=============================
+
 
 
 		
