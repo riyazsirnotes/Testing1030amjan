@@ -686,11 +686,94 @@ nextShort(int)
 =============================
 
 
+*********************************************************
 
+Mar 15th Wednesday
+
+*********************************************************
+
+
+OOPs (Object Oriented Programming):
+
+e.g : java , C++ etc ..
+
+"Simula" - first OOP lang
+
+"Small Talk" - First Truley OOP lang 
+
+means every thing is object here 
+
+
+Older approach :
+
+Procedure Oriented Programming
+
+e.g Basic , COBOL , C etc
+
+
+-----------------------------------------
+
+Object :
+
+Any thing that exists is an Object.
+
+It can be living thing , non-living thing or  anything .
+
+e.g 
+
+Dog , Car , Marker , bank account number etc
+
+Object have 3 Characteristics:
+
+1. State : it represents the data that describes an object
+
+e.g Object is Marker 
+
+state  - length 12cm , Shape Cylindrical , color - white 
+
+2. Behaviour : represents actions/taks that object can perform 
+
+e.g Object is dog 
+
+behaviour : barking , eating , sleeping 
+
+3. Identity : a unique ID given to identify the Object 
+
+used by JVM
+
+
+-------------------------------------------
+
+Class :
+
+A blueprint or a template through which we create an object is called Class.
+
+Class is a logical entity .
+
+Class consists of Variables and Methods .
+
+=================================
+Object Creation Techniques
+==================================
+
+1. using new operator 
+
+ClassName objectName=new ClassName();
+
+2. using Static Factory Method : (SFM)
+
+ClassName objectName=ClassName.methodName();
 		
+3. using non-static Factory Method :
+
+ClassName object1=new ClassName1();
+
+ClassName object2=object1.method1();
 
 
+XSSFWorkbook wb=new XSSFWorkbook();
 
+XSSFSheet ws=wb.getSheet("sheet1");
 
 
 
