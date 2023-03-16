@@ -776,11 +776,45 @@ XSSFWorkbook wb=new XSSFWorkbook();
 XSSFSheet ws=wb.getSheet("sheet1");
 
 
+*********************************************************
+
+Mar 16th Thursday
+
+*********************************************************
 
 
 
 
 
+4. using clone method 
+
+ClassName object1=new ClassName1();
+
+ClassName object2=object1.clone();
+
+
+5. using literals 
+
+ClassName objectName=value;
+
+String s1="Live Tech";
+
+6. using Deserialization 
+
+no syntax 
+
+JVM will use this 
+
+
+----------------------------------
+Encapsulation
+-----------------------------------
+Encapsulation in Java is a process of wrapping code and data together into a single unit,
+
+ for example, a capsule which is mixed of several medicines.
+
+
+The field Bank.balance is not visible
 
 
 
