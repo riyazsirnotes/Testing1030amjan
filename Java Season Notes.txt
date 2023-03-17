@@ -817,6 +817,75 @@ Encapsulation in Java is a process of wrapping code and data together into a sin
 The field Bank.balance is not visible
 
 
+*********************************************************
+
+Mar 17th Friday 
+
+*********************************************************
+
+
+10:49:50
+
+2:3:55
+
+02:03:55
+
+PrintStream :
+
+println => will print and moves the cursor to next line
+print  ==> will print and cursor stays in same 
+
+*
+* *
+* * * 
+* * * *
+* * * * *
+
+
+printf == > came from old languages (c lang)
+
+
+format ==> to format the values
+
+
+this : 
+
+when we have local varibales same as instance variables ,
+local variables dominate and will not change or effect Instance variables.
+
+To overcome this , we will use "this" keyword 
+
+this is key cum opeator 
+
+this is non-static variable
+
+this is used to reference the current calling object reference
+
+????????????????????????????????
+
+Create a Class called Date
+
+
+here use 3 variables
+
+int date , year ;
+
+String month;
+
+use getters and setters to display the date 
+
+Expected :
+
+17-MAR-2023
+
+02-OCT-1869
+
+
+??????????????????????????????????????????????????
+
+
+
+
 
 
 
