@@ -884,12 +884,66 @@ Expected :
 ??????????????????????????????????????????????????
 
 
+*********************************************************
+
+Mar 21st Tuesday 
+
+*********************************************************
 
 
+------------------------
+Polymorphism
+------------------------
 
 
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
 
 
+Poly means Many
+
+Morph means forms
+
+								Polymorphism
+								    |
+					_______________________________				
+					|					           |
+				Static							 Dynamic   (this will be after inheritance topic)
+				  or								or
+				Compile time					 Runtime 
+				  or								 or
+				Early Binding					 Late Binding
+				
+
+Binding means linking or mapping 
+
+Method Signature :
+
+   method name + arguments 
+   
+In Compile time : method name will be same 
+
+In Runtime  : Method Signature will be same 
+
+
+?????????????????????????????????????????
+
+Create a Class Clock
+
+and use setters methods ( use polymorphism means method overloding or same method name )
+
+setClock(int hr)
+
+setClock(int hr,int min)
+
+setClock(int hr,int min,int sec)
+
+getClock ==> to display the clock
+
+
+???????????????????????????????????????????
+				
 
 
 
