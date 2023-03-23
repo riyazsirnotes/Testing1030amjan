@@ -945,19 +945,84 @@ getClock ==> to display the clock
 ???????????????????????????????????????????
 				
 
+*********************************************************
+
+Mar 23rd Thursday 
+
+*********************************************************
+
+
+getClock ==> to display the clock
+
+9
+
+09:00:00
+
+9 ,15
+
+09:15:00
+
+9,15,55
+
+09:15:55
 
 
 
+------------------------------
+Constructor
+-------------------------------
+
+It's a method having same Name as Class Name (Case Sentitive)
 
 
+Rules of Constructor :
+
+- Constructor name should be same as Class Name
+- Constructor doesn't have return type 
+
+Interview Question :
+
+what happens if we declare return type ?
+nothing will happen , that method will be no longer a Constructor
+it will be treated as Normal or Concrete method
 
 
+- Constructor doesn't have access-modifier
+
+Illegal modifier for the constructor in type Sum; only public, protected & private are permitted
 
 
+- Explicit calling of Constructor is not possible
+
+========================
+Constructor Overloading
+========================
+									Constructor's
+							
+			default	Constructor						paramterized constructor's
 
 
+??????????????????????????????????????????????????
+
+Generate Aadhar number 
+
+either 
+
+986336
+
+or 
+
+5213 1425 3256
+
+hint : 
+
+	public static void main(String[] args) {
+		
+		System.out.println((int)(Math.random()*1000000));
+	}
 
 
+????????????????????????????????????????????????????
 
 
 
