@@ -1026,9 +1026,25 @@ hint :
 
 
 
+*********************************************************
+
+Mar 24th Friday 
+
+*********************************************************
+
+-----------------------------
+Inheritance
+-----------------------------
+
+Inheritance in Java is a mechanism 
+in which one object acquires all the properties and behaviors of a parent object.
 
 
+public class Marks extends Student
 
+here Marks is Child / Derived / Sub Class
+
+    Student   Parent / Base / Super 
 
 
 
