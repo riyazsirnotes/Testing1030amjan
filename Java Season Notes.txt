@@ -1047,15 +1047,37 @@ here Marks is Child / Derived / Sub Class
     Student   Parent / Base / Super 
 
 
+*********************************************************
+
+Mar 25th Saturday 
+
+*********************************************************
+
+
+Super : super is a keyword cum operator
+
+super is used to refer Current calling object's Parent refrence
 
 
 
+-----------------------------
+Abstraction
+-----------------------------
+
+							Abstraction
+							
+
+			Abstract Class						Interfaces
+			
+			0 to 100 % 						
+			
+			
+Abstract Method : a method having no body and having abstarct keyword
 
 
+syntax : 
 
-
-
-
+access-specifier abstarct return-type methodName(arguments);
 
 
 
