@@ -1069,7 +1069,7 @@ Abstraction
 
 			Abstract Class						Interfaces
 			
-			0 to 100 % 						
+			0 to 100 % 							100 %
 			
 			
 Abstract Method : a method having no body and having abstarct keyword
@@ -1081,14 +1081,63 @@ access-specifier abstarct return-type methodName(arguments);
 
 
 
+*********************************************************
+
+Mar 27th Monday 
+
+*********************************************************
+
+
+abstract class A
+{
+m1 abstarct
+
+m2 abstarct
+
+m3 concrete
+}
+
+
+ class B extends A
+{
+
+m1  Concrete
+
+m2 {}
+
+
+}
+
+-------------------------------
+Interface
+-------------------------------
+
+Collection of Constants/Fields and Abstract methods
+
+syntax :
+
+access-specifier access-modifier interface InterfaceName
+{
+
+//Constants/Fields
+
+syntax :
+
+access-specifier static final data-type ConstantName = value;
+
+public static final double PI = 3.14;
+
+
+//Abstarct Methods
+
+
+syntax : 
+
+access-specifier abstarct return-type methodName(arguments);
 
 
 
-
-
-
-
-
+}
 
 
 
