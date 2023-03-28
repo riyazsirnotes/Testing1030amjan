@@ -1,0 +1,66 @@
+Selenium Season 1
+
+
+https://www.selenium.dev/
+
+
+Architecture of Selenium :
+
+------------------------------------
+Browser Launching 
+
+
+1) Chrome Browser
+
+
+
+for Selenium 
+
+Stable Version is 4.8.2
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+Selenium 3.141.59
+
+download selenium-server-standalone-3.141.59.jar
+
+
+------------------------
+
+how to add any jar to your java project
+
+
+ right click on project  ==> build path ==> Configure Build path ==> Click on "Libraries" tab ==>
+ click on classpath ==> Click on "Add External Jars" ==> choose the jar from the location where you have downloaded
+ 
+ ==> click open ==> apply == apply and close
+ 
+ Then you will see "Referenced Libraries" in your project
+
+?????????????????????????????????????
+
+Launch Edge Browser 
+
+?????????????????????????????????????
+
+Launch Firefox Browser
+
+??????????????????????????????????????
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Second way of Launhcing browser
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://github.com/bonigarcia/webdrivermanager
+
+CLick on below
+
+https://github.com/bonigarcia/webdrivermanager/releases/tag/webdrivermanager-5.3.2
+
+Click on below fat jar
+
+webdrivermanager-5.3.2-fat.jar
+
+
