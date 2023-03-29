@@ -64,3 +64,102 @@ Click on below fat jar
 webdrivermanager-5.3.2-fat.jar
 
 
+**********************************************
+Mar 29th Wednesday
+**********************************************
+
+
+
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+
+webdriver.chrome.driver
+
+webdriver.gecko.driver
+
+webdriver.edge.driver
+
+webdriver.ie.driver
+
+https://github.com/mozilla/geckodriver/releases
+
+
+
+****************************************************
+*** Methods In WebDriver    ************************
+****************************************************
+
+WebDriver (I)
+
+6 sub interfaces
+
+13 methods 
+
+package : org.openqa.selenium
+
+Sub Interfaces (6)
+ImeHandler
+Navigation
+Options
+TargetLocator
+Timeouts
+Window
+
+Methods (13)
+---------------------------------------------
+get(String): void
+
+It will launch the app whose URL is given as String
+
+---------------------------------------------
+
+close(): void
+
+It close the window or tab on which WebDriver focus is 
+
+
+---------------------------------------------
+
+quit(): void 
+
+It closes all the tabs / windows opened during that sessions
+
+
+---------------------------------------------
+
+getTitle() : String
+
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+findElement(By)
+findElements(By)
+
+getCurrentUrl()
+getPageSource()
+
+getWindowHandle()
+getWindowHandles()
+manage()
+navigate()
+
+switchTo()
+
+
+
+
+
+
+
+
+
+
+
