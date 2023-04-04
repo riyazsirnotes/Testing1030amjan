@@ -129,29 +129,107 @@ It closes all the tabs / windows opened during that sessions
 
 getTitle() : String
 
+It returns the title of page or window or tab in form of String
+
 ---------------------------------------------
+
+getCurrentUrl(): String
+
+https://adactinhotelapp.com/
 ---------------------------------------------
+
+getPageSource() : String 
 ---------------------------------------------
+
+getWindowHandle() : String 
+
+will retrive the window id of the tab or window on which webdriver focus is
+in form of String
+
+e.g 
+563F1AEBB2FA13B420D0F301874B5003
 ---------------------------------------------
+
+getWindowHandles() : Set<String>
+
+will retrive the window id's of the tab's or window's opened till that webdriver seesion
+in form of collection of String (here Collection is Set , will be discussed in Java Season 2)
+
+e.g
+
+[F2297E893B1DA2FECFD9E206F6A77D1D, 5B59EC3F8A7417C12687CDB018AEBD8C]
+
 ---------------------------------------------
+
+navigate(): Navigation
+
+back() : if you want to click back arrow control
+forward() : if you want to click forward arrow control
+refresh() : if you want to refresh the page 
+to(String) : similar to driver.get(String)
+to(URL) : here paramater is Object URL 
+
+
 ---------------------------------------------
+
+manage() : Options
+
+manage method is used to manage the cookies , syncronization , window etc.
+
+addCookie(Cookie)
+deleteAllCookies()
+deleteCookie(Cookie)
+deleteCookieNamed(String)
+getCookieNamed(String)
+getCookies()
+ime()
+logs()
+timeouts()
+window(): Window
+
+fullscreen()
+getPosition()
+getSize()
+maximize()
+setPosition(Point)
+setSize(Dimension)
+
+
+
 ---------------------------------------------
+
+switchTo() : TargetLocator
+
+activeElement()
+alert()
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+parentFrame()
+window(String)
+
+
 ---------------------------------------------
----------------------------------------------
----------------------------------------------
+
 
 findElement(By)
 findElements(By)
 
-getCurrentUrl()
-getPageSource()
 
-getWindowHandle()
-getWindowHandles()
-manage()
-navigate()
+---------------------------------------------
+---------------------------------------------
 
-switchTo()
+
+
+
+
+
+
+
+
+
+
 
 
 
