@@ -91,13 +91,13 @@ https://github.com/mozilla/geckodriver/releases
 
 WebDriver (I)
 
-6 sub interfaces
+5 sub interfaces
 
 13 methods 
 
 package : org.openqa.selenium
 
-Sub Interfaces (6)
+Sub Interfaces (5)
 ImeHandler
 Navigation
 Options
@@ -212,14 +212,113 @@ window(String)
 
 ---------------------------------------------
 
+**********************************************
+Apr 5th Wednesday
+**********************************************
 
+
+****************************************************
+*** Methods In WebDriver    ************************
+****************************************************
+
+----------------------------------------------------------------
+findElement(By) : WebElement
+
+************************
+Locators in Selenium (8)
+
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="lo97lm">
+
+Html Terminologies :
+
+
+<tagname attribute1="value of attribute1" attribute2="value of attribute2"></tagname>
+
+<a href="Register.php">New User Register Here</a>
+
+<tagname attribute1="value of attribute1" .....>text on element</tagname>
+----------------------------------------
+locators based on attributes :
+
+id(String) : By
+className(String) : By 
+name(String) : By
+-------------------------------------------
+locators based on text :
+
+linkText(String) : By
+partialLinkText(String) : By
+
+----------------------------------------------
+
+tagName(String) : By
+this locator strategy  is used for collecting multiple elements
+
+----------------------------------------------
+locators based on combination of tagname,attributes , text 
+
+xpath(String) : By
+cssSelector(String) : By
+
+<img src="img/google-play.png">
+
+
+
+-----------------------------------------------------------------
+findElements(By) : List<WebElement>
+
+
+---------------------------------------------
+
+WebElement (I) :  org.openqa.selenium
+
+16 m + 5 m 
+
+
+clear()
+click()
 findElement(By)
 findElements(By)
+getAttribute(String)
+getCssValue(String)
+getLocation()
+getRect()
+getSize()
+getTagName()
+getText()
+isDisplayed()
+isEnabled()
+isSelected()
+sendKeys(CharSequence...)
+submit()
 
+=========
+
+getAccessibleName()
+getAriaRole()
+getDomAttribute(String)
+getDomProperty(String)
+getShadowRoot()
 
 ---------------------------------------------
----------------------------------------------
 
+
+sendKeys(CharSequence...): void
+
+CharSequence... means String 
+
+this will type some text on WebElement
 
 
 
