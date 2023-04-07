@@ -322,18 +322,179 @@ this will type some text on WebElement
 
 
 
+**********************************************
+Apr 6th Thursday
+**********************************************
 
 
 
+****************************************************
+*** Methods In WebElement (16) *********************
+****************************************************
+
+
+clear() : void
+
+to clear some text existing on text box
+
+???????????????????????????????
+
+use adactin login 
+and clear the checkin date and checkout date
+
+credentials :
+
+reyaz0617
+reyaz123
+??????????????????????????????????
+
+
+------------------------------------
+
+click():void
+this is used to click webelements like 
+link , image ,button etc..
+
+---------------------------------------
+getText() : String 
+
+it will return the text present on weblement
+
+------------------------------------------
+
+getTagName():String
+
+it will return the tagname of the WebElement in string format
+
+--------------------------------------------
+
+getAttribute(String) : String
+
+case 1: attribute having value 
+o/p value
+
+
+case 2: attribute without any value
+o/p true
+
+case 3: attribute is not present
+o/p null
+
+--------------------------------------------------
+getCssValue(String) : String
+
+
+you can reterive css values like font-size ,color etc in String format
+
+---------------------------------------------------
+
+getLocation() : Point
+
+to get the x,y coordinates of left most corner of webelement
+
+getSize() : Dimension
+
+to get height and width
+
+
+getRect() : Retangle
+
+to get x,y,heigth,width
+
+------------------------------------------------------
+
+isDisplayed() : boolean
+
+to check element is displayed in Page
+
+
+isEnabled() : boolean
+
+to check element is enabled 
+
+
+isSelected() : boolean
+
+to check items sleced in dropdown ,checkboxes etc ..
+
+
+---------------------------------------------------------
+
+**********************************************
+Apr 7th Friday
+**********************************************
 
 
 
+findElement(By) :WebElement
+findElements(By) : List<WebElement>
+
+
+------------------------------------------
+Links Testing
+------------------------------------------
+
+
+for links
+
+tagname is "a"  also called anchor tag
+
+New User Register Here
 
 
 
+---------------------------------------------
+Dropdown Tetsing
+---------------------------------------------
+
+2 ways to automate dropdown
+
+i) conventional way 
+
+using SendKeys method
+
+ii) Select class
+
+<select aria-describedby="searchDropdownDescription" 
+class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" 
+data-nav-digest="YaNDxYMsix1vZjM7upEvnpX/VWU=" data-nav-selected="0" 
+id="searchDropdownBox" 
+name="url" 
+style="display: block; top: 2.5px;" tabindex="0" 
+title="Search in">
+        
+    </select>
 
 
+selectByIndex(int) : void
+selectByValue(String) : void
+selectByVisibleText(String) : void
 
+
+To create object of Select class (org.openqa.selenium.support.ui)
+
+Select s1=new Select(WebElement);
+
+
+?????????????????????????????????????
+
+https://www.facebook.com/
+
+click on "Create new account"
+
+and select your birthday
+
+use
+
+2 ways to automate dropdown
+
+i) conventional way 
+
+using SendKeys method
+
+ii) Select class
+
+?????????????????????????????
 
 
 
