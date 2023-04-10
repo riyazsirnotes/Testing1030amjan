@@ -1280,9 +1280,98 @@ increment or decrement;
 
 
 
+**********************************************
+Apr 10th Monday
+**********************************************
 
 
+---------------------------------------
+Java Season -2 
+---------------------------------------
 
+
+Arrays :
+
+
+it's a group of simliar data-type elements having fixed length
+
+		10		20		30		40		50		60
+a		0		1		2		3		4		5
+		a[0]	a[1]	a[2]	a[3]	a[4]	a[5]
+
+
+syntax :
+
+access-specifier modifier data-type arrayName[]={element1,element2...elementn};
+
+int a[]={10,20,30,40,50,60};
+
+
+syntax : using new 
+
+access-specifier modifier data-type arrayName[]=new data-type[size];
+
+
+Disadvantages :
+
+1) Arrays always store similar or homogeneous data-type's
+
+2) Arrays are fixed length
+   no growable nature
+   
+3) predefined structures or methods not defined in arrays 
+
+--------------------------------------
+Collection
+--------------------------------------
+
+								Collection(I)
+								
+								
+			List(I)					Queue(I)				Set(I)							
+
+
+Collection(I) :
+
+
+add(E) : boolean 
+
+this method will add the Element  based on collection 
+
+
+addAll(Collection<? extends E>) : boolean
+
+this method will add Collection 
+
+
+clear() : void
+
+this will clear the items /Elements
+
+
+contains(Object) : boolean
+
+to check the avialability of element in collection ..similar to search
+
+
+equals(Object) : boolean
+
+
+isEmpty(): boolean
+
+to check collection is empty
+
+iterator():Iterator
+
+remove(Object): boolean
+
+
+to remove item / element in collection 
+
+
+size(): int
+
+will get size or no of items /elements in collections
 
 
 
