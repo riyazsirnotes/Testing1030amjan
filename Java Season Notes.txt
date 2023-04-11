@@ -1375,10 +1375,62 @@ will get size or no of items /elements in collections
 
 
 
+**********************************************
+Apr 11th Tuesday
+**********************************************
+
+
+List(I) methods 
+
+
+get(int) : E
+
+get will return the Element present in i th index
+
+
+indexOf(Object) : int
 
 
 
+ArrayList (C)
 
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+
+initial Capaacity =10
+
+
+new capacity = 3/2 (CC )+ 1
+
+
+for-each loop or enhanced for loop :
+
+
+syntax :
+
+
+for(Datatype someVariable:collectionreference or array ref)
+{
+
+//use someVariable
+}
+
+			
+-------------------
+Set(I)
+--------------------
+
+
+iterator has 2 methods
+
+hasNext(): boolean
+will check wheter element is present in next level 
+
+next():Element
+- it retrives the element
+- moves the cursor /iterator reference to next level
 
 
 
