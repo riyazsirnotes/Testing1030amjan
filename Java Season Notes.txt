@@ -1435,11 +1435,53 @@ next():Element
 
 
 
+**********************************************
+Apr 12th Wednesday
+**********************************************
+
+ArrayList                 			vs                      HashSet
+1. Elements are stored 								1. Elements are stored based on 
+ indexed based 											Hashing technique
+ means  insertion order is							    means insertion order is 
+ preserved												not preserved
+
+2. duplicated are allowed							2. duplicates are not allowed
+
+3. 												    3. 
+Q) 	what happends when duplicated added ?			Q) what happends when duplicated added ?
+nothing , elemnts will get added					   nothing , elemnts will not get added
+add method will true								   add method will true
 
 
 
+------------------------------
+Exception
+------------------------------
 
 
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at apr12th.ExceptionDemo1.main(ExceptionDemo1.java:20)
+
+
+try catch
+
+try block -> where you enter risky work
+
+catch block  --> to print exception trace or error message or user frinendly message
+
+finally block --> to excute some mandate code like closing of JDBC connection or closing of file
+
+
+
+try - catch
+
+try -  catch - catch 
+
+try - finally
+								Exception
+								
+			checked Exception				UnChecked Exception
+			
 
 
 

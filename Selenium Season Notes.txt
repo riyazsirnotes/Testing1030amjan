@@ -497,7 +497,11 @@ ii) Select class
 ?????????????????????????????
 
 
-
+<a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/"
+ id="u_0_0_91" data-testid="open-registration-form-button" rel="async">Create new account</a>
+ 
+ <a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/" 
+ id="u_0_0_LT" data-testid="open-registration-form-button" rel="async">Create new account</a>
 
 
 
