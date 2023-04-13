@@ -1483,6 +1483,57 @@ try - finally
 			checked Exception				UnChecked Exception
 			
 
+**********************************************
+Apr 13th Thursday
+**********************************************
+
+throws : 
+
+throws is used to catch exception , mentioned not isinside but at method level
+
+throws can be used to catch multiple exceptions
+
+throw:
+
+is a keyword to create custom exception
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Selenium Season - 2
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+i want to find no of links present in adaction hotel app page
+
+
+findElements(By):List<WebElement>
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+
+<a href="Register.php">New User Register Here</a>
+
+<a href="mailto:info@adactin.com">info@adactin.com</a>
+
+
+here tagname 'a' is common for all links
+we use locator strategy "tagname"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
