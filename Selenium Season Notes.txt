@@ -556,3 +556,159 @@ search for Testng
 --> click on "Install" button for TestNG for Eclipse plugin
 
 ??????????????????????????????????????????????????????????		
+
+
+
+**********************************************
+Apr 17th Monday
+**********************************************
+
+
+testNG annotations 
+
+
+@Test  - similar to test case having steps 
+
+@BeforeMethod --  this will be excuted before each and every @Test annotated method 
+
+@AfterMethod --  this will be excuted after each and every @Test annotated method 
+
+
+=======================================
+Miscellenous Actions
+========================================
+
+Actions.class
+
+org.openqa.selenium.interactions
+
+Actions(WebDriver) 
+
+Mouse Hovering 
+
+moveToElement(WebElement)
+moveToElement(WebElement, int, int)
+
+<span class="m-text">Loans</span>
+
+
+*******************************************************
+****** Xpath  writing techniques **********************
+*******************************************************
+
+Xpath means XML path
+
+it's a query lang to identify XML nodes
+
+HTML is an imlpementation of XML , so you can use xpath for HTML nodes also
+
+								Xpath
+								
+		Absolute xpath							Relative xpath
+
+
+
+**********************************************
+Apr 18th Tuesday
+**********************************************
+
+
+
+//html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input		
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[2]/input
+
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[7]/td/a
+
+
+
+Relative xpath or Xpath Writing Techniques
+
+
+//tagname attribute1="value of attribute1"  attribute2="value of attribute2" > text on element </tagname>
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="dknylc">
+
+<td width="150" align="right">Username&nbsp;</td>
+
+<a href="Register.php">New User Register Here</a>
+
+1) using tagname and attribute and attirbutes
+
+
+//tagname[@attribute='value of attribute']
+
+//input[@name='username']
+
+//input[@type='text']
+
+//input[@class='login_input' and @id='username']
+
+
+2) using tagname and text 
+
+//tagname[text()='text on webelement']
+
+//a[text()='New User Register Here']
+
+//td[text()='Username&nbsp;']
+
+
+3) using contains function , starts-with function , ends-with function
+
+//tagname[contains(@attribute,'paritial value of attribute')]
+
+//tagname[contains(text(),'partial text on element')]
+
+//td[contains(text(),'Username')]
+
+u_0_0_SS
+
+u_0_0_au
+
+//a[contains(@id,'u_0_0_')]
+
+//a[starts-with(@id,'u_0_0_')]
+
+
+----------------------------
+methods in Actions
+
+perform() : void
+
+this will complete the action class methods
+
+
+pause:Actions 
+
+this is similar to Thread.sleep
+
+
+build : Actions
+
+this is to integraate the actions method
+
+---------------------------------------
+
+drag and Drop
+
+dragAndDrop(WebElement, WebElement)
+dragAndDropBy(WebElement, int, int)
+
+----------------------------------------------------
+
+
+?????????????????????????????????????????????????????????
+https://emicalculator.net/
+
+
+
+drag loan amount to 75laksh
+
+drag interest rate to12.5%
+
+drag loan tenure to 15yrs
+
+then verify the calculated loan EMI  should be 92,439
+
+???????????????????????????????????????????????????????????????
