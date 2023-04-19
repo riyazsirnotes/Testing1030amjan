@@ -712,3 +712,55 @@ drag loan tenure to 15yrs
 then verify the calculated loan EMI  should be 92,439
 
 ???????????????????????????????????????????????????????????????
+
+
+
+**********************************************
+Apr 19th Wednesday
+**********************************************
+
+
+----------------------------------------
+Right click
+
+
+contextClick()
+contextClick(WebElement)
+
+
+sendKeys(CharSequence...)
+sendKeys(WebElement, CharSequence...)
+
+
+------------------------------------------------
+
+doubleClick()
+doubleClick(WebElement)
+
+-------------------------------------------------
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+********** Multiple Window or Tab Handling ********
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+getWindowHandle(): String
+
+getWindowHandles() : Set<String>
+
+switchTo():TargetLocator 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
