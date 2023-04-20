@@ -753,14 +753,69 @@ switchTo():TargetLocator
 
 
 
+**********************************************
+Apr 20th Thursday
+**********************************************
+
+
+?????????????????????????????????????????????????????????
+
+https://www.livetech.in/
+
+
+click on Facebook icon 
+
+and switchTo to facebook window or tab
+
+
+click on login 
+
+and switch back to livetech
+
+click on instagram icon 
+
+and switchTo to instagram window or tab
+
+click on login 
+
+and switch back to livetech 
+
+click on linkdin
+
+and switchTo to linkedIn window or tab
+
+click on login 
+
+
+??????????????????????????????????????????????????????
 
 
 
+-----------------------------------------------------------
+Multiple Frame Handling 
+-----------------------------------------------------------
+
+						frames
+						
+						
+		frame							iframe				
+
+	<=HTML3								>HTML3
+	
+
+driver.switchTo():TargetLocator
 
 
+window(String)
+
+alert()
 
 
+frame(int)
+frame(String)
+frame(WebElement)
+defaultContent() : to switch the control from any frame to page 
+parentFrame(): to switch the control from child to parent frame 
 
 
-
-
+	
