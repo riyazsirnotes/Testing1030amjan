@@ -948,3 +948,26 @@ write a script to click or check all check boxes
 use for loop and if condition
 
 ????????????????????????????????????????????????
+
+
+
+**********************************************
+Apr 26th Wednesday
+**********************************************
+
+JavascriptExecutor(I)
+
+executeAsyncScript(String, Object...) ==not used much
+
+
+executeScript(String, Object...):Object
+
+Here String is the JavaScript command/statement
+
+Object... means an array of objects or vArgs concept
+
+window.scrollBy(0, 100);
+
+window.scrollBy(0, document.body.scrollHeight);
+
+element.scrollIntoView();
