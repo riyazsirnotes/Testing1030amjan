@@ -1021,3 +1021,47 @@ BASE64 : OutputType<String>
 BYTES : OutputType<byte[]>
 FILE : OutputType<File>
 
+
+
+**********************************************
+Apr 28th Friday
+**********************************************
+
+
+=======================================================================================
+====== Waits in Selenium or Synchronization Point or Synchronization Techniques =======
+=======================================================================================
+
+
+
+0) Hard wait using Thread.sleep(millis);
+
+this is not encouraged 
+
+1) Implicit Wait
+
+driver.manage().timeouts().implicitlyWait(long, TimeUnit);
+
+
+this statement is applied for all driver.findElement/s statements in the script
+
+
+2) Explicit Wait
+
+WebDriverWait
+
+WebDriverWait(WebDriver, Clock, Sleeper, long, long)
+WebDriverWait(WebDriver, long)
+WebDriverWait(WebDriver, long, long)
+
+Wait(I)
+
+until(Function<? super F, T>)
+
+
+ExpectedConditions(C)
+
+
+WebDriverWait myWait=new WebDriverWait(driver,30);
+
+myWait.until(ExpectedConditions.presenceOfElementLocated(By))
