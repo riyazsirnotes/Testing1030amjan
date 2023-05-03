@@ -1095,3 +1095,79 @@ or
 
 //b[@id='topic']/following-sibling::input
 
+
+
+data-gtm-bnr-imgname
+
+GuessDeisel-Upto70
+
+
+//a[contains(@data-gtm-bnr-imgname,'GuessDeisel-Upto70')]
+
+===================================
+Fluent Wait
+
+3 main improvements can  be done to Explicit Wait
+
+1) here in new WebDriverWait(driver,long)
+
+here second arguments always meant for Seconds (provided by long data type)
+
+2) WebDriverWait have the freqquency of 500 millis
+
+3) excpection handling mechanism not present present
+and should be handled by programmer
+
+
+**********************************************
+May 3rd Wednesday
+**********************************************
+
+WebTable
+
+table
+thead
+tbody
+tr
+td
+
+
+						WebTable
+						
+		static						dynamic
+		
+		
+
+//table/tbody/tr[1]/td[1]   //table/tbody/tr[1]/td[2]  ..... //table/tbody/tr[1]/td[8]
+
+//table/tbody/tr[2]/td[1]/a	
+
+:
+:
+:
+
+//table/tbody/tr[36]/td[1]/a
+
+
+String part1="//table/tbody/tr["
+1
+String part2="]/td[1]/a"
+
+??????????????????????????????????????????
+
+https://money.rediff.com/gainers/bse/daily/groupa
+
+retrive the table using dynamic style
+
+????????????????????????????????????????????
+
+//table/tbody/tr[9]/td[3]
+
+//td[text()='6 mnths 1 days  <= 9 mnths']/following::td[2]
+
+//td[text()='6 mnths 1 days  <= 9 mnths']/parent::tr/td[3]
+
+//td[text()='6 mnths 1 days  <= 9 mnths']/parent::tr/descendant::td[3]
+
+//td[text()='6 mnths 1 days  <= 9 mnths']/parent::tr/child::td[3]
+
