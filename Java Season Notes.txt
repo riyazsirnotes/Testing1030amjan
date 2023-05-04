@@ -1582,10 +1582,39 @@ mkdir():boolean
 
 
 
+**********************************************
+May 4th Thursday
+**********************************************
+
+								Excel
+								
+
+			.xls							.xlsx
+			
+
+To read or write to excels we need to have Apache POI jars
 
 
+https://poi.apache.org/download.html
 
+https://archive.apache.org/dist/poi/release/bin/
 
+poi-bin-5.2.3-20220909.zip    
+
+		.xls 											.xlsx
+							
+	HSSFWorkbook(C)			Workbook (I)				XSSFWorkbook(C)		
+							
+	HSSFSheet(C)			Sheet(I)					XSSFSheet(C)
+							
+	HSSFRow(C)				Row(I)						XSSFRow(C)
+							
+	HSSFCell(C)				Cell(I)						XSSFCell(C)
+	
+	
+	
+							
+							
 
 
 
