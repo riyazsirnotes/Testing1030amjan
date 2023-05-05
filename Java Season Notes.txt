@@ -1611,10 +1611,47 @@ poi-bin-5.2.3-20220909.zip
 							
 	HSSFCell(C)				Cell(I)						XSSFCell(C)
 	
+
+**********************************************
+May 5th Thursday
+**********************************************
+
+Maven : Project Management tool
+
+https://maven.apache.org/download.cgi
+
+
+	apache-maven-3.9.1-bin.zip
+
+MAVEN_HOME D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1
+
+M2_HOME D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin
+
+path D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin	
 	
-	
+
+go to cmd 
+
+C:\Users\Riyaz>mvn -version
+Apache Maven 3.8.7 (b89d5959fcde851dcb1c8946a785a163f14e1e29)
+Maven home: D:\apache-maven-3.8.7
+Java version: 11.0.18, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 							
 							
+
+src/main/java		  ===> developers
+src/main/resources    ===> developers
+src/test/java         ===> testers
+src/test/resources    ===> testers
+
+pom.xml  ==> project object model .xml
+
+
+
+https://mvnrepository.com/
+
 
 
 
