@@ -1613,7 +1613,7 @@ poi-bin-5.2.3-20220909.zip
 	
 
 **********************************************
-May 5th Thursday
+May 5th Friday
 **********************************************
 
 Maven : Project Management tool
@@ -1652,7 +1652,18 @@ pom.xml  ==> project object model .xml
 
 https://mvnrepository.com/
 
+===========================================
 
+Excel Read
+
+
+ws.getLastRowNum():int 
+
+
+
+**********************************************
+May 6th Saturday
+**********************************************
 
 
 
