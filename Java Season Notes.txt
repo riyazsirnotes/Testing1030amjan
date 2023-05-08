@@ -1666,16 +1666,71 @@ May 6th Saturday
 **********************************************
 
 
+String :
+java.lang
+
+final 
+
+why String is immutable ?
+
+since java community defined String class with final access-modifier
 
 
+== will check the memory references
+
+where as equal method will check the content
+
+Important ASCII Values :
+
+A 65
+Z 90
+Spacae 32
+a 97
+z 122
+
+Character
 
 
+isUpperCase(char)
+
+isLowerCase(char)
+
+isDigit(char)
+
+Enter a String 
+My user1 username is william001 and password is pass123
+1
+0
+0
+1
+1
+2
+3
+
+isLetterOrDigit(char)
 
 
+isWhitespace(char)
+
+??????????????????????????????
+find no of vowels in a String
+
+???????????????????????????????
 
 
+**********************************************
+May 8th Monday
+**********************************************
+
+Excel Write :
 
 
+case1 : modifying an existing cell
+
+
+case2: creating a cell in existing Row
+
+case3: creating a Row and cell in it 
 
 
 
