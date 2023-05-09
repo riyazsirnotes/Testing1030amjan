@@ -1732,11 +1732,57 @@ case2: creating a cell in existing Row
 
 case3: creating a Row and cell in it 
 
+ FileInputStream fis1= new FileInputStream("src\\test\\resources\\Properties\\demo.properties");
+		 
+		 Properties pr=new Properties();
+		 
+		 pr.load(fis1);
+		 
+		 
+		System.out.println(pr.getProperty("browser"));
 
 
 
+**********************************************
+May 9th Monday
+**********************************************
 
 
+Map(I)
+Map<K, V>(I):
+
+Entry<K, V>(I):
+
+
+HashMap(C)
+
+Methods :
+
+put(K, V):V ==> to add Entry or Key-value pair
+
+get(Object) : V , here object is key
+
+
+remove(Object):V
+
+replace(K, V)
+
+size():int
+
+
+values():Collection<V>
+
+
+containsKey(Object):boolean
+containsValue(Object):boolean
+-----------
+HashMap(C)
+-----------
+
+HashMap()
+HashMap(int)
+HashMap(int, float)
+HashMap(Map<? extends K, ? extends V>)
 
 
 
