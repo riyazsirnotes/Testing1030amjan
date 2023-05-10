@@ -1171,3 +1171,25 @@ retrive the table using dynamic style
 
 //td[text()='6 mnths 1 days  <= 9 mnths']/parent::tr/child::td[3]
 
+
+**********************************************
+May 10th Wednesday
+**********************************************
+----------------------------------
+Selenium Season -3
+-----------------------------------
+
+						Frameworks
+						
+		inbuilt						User defined
+
+		junit						Data driven
+		TestNG						Keyword driven		
+								    Hybrid  using POM (design pattern)
+									BDD Behaviour Driven Development (Cucumber )
+
+
+Data Driven :
+
+Data Pramterization is achived using @DataProvider annotation in TestNG
+									
