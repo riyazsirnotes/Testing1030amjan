@@ -1193,3 +1193,32 @@ Data Driven :
 
 Data Pramterization is achived using @DataProvider annotation in TestNG
 									
+									
+TestNG hiererchy:
+
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterMethod
+@AfterClass
+@AfterTest
+@AfterSuite
+
+
+@BeforeTest  vs @BeforeMethod 
+
+@BeforeTest  will be executed only once before all the classes present in test tag in testng.xml
+
+@BeforeMethod will be executed before each @Test in every class
+
+
+
+
+	
